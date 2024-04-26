@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  }
+}
